@@ -9,7 +9,7 @@
 - [x] `isprint`
 - [x] `strlen`
 - [x] `memset`
-- [ ] `bzero`
+- [x] `bzero`
 - [ ] `memcpy`
 - [ ] `memmove`
 - [ ] `strlcpy`
