@@ -2,29 +2,29 @@
 
 ### Mandatory:
 
-- [x] `isalpha`
-- [x] `isdigit`
-- [x] `isalnum`
-- [x] `isascii`
-- [x] `isprint`
-- [x] `strlen`
-- [x] `memset`
-- [x] `bzero`
-- [ ] `memcpy`
-- [ ] `memmove`
-- [ ] `strlcpy`
-- [ ] `strlcat`
-- [ ] `toupper`
-- [ ] `tolower`
-- [ ] `strchr`
-- [ ] `strrchr`
-- [ ] `strncmp`
-- [ ] `memchr`
-- [ ] `memcmp`
-- [ ] `strnstr`
-- [ ] `atoi`
-- [ ] `calloc`
-- [ ] `strdup`
+- [x] `ft_isalpha`
+- [x] `ft_isdigit`
+- [x] `ft_isalnum`
+- [x] `ft_isascii`
+- [x] `ft_isprint`
+- [x] `ft_strlen`
+- [x] `ft_memset`
+- [x] `ft_bzero`
+- [ ] `ft_memcpy`
+- [ ] `ft_memmove`
+- [ ] `ft_strlcpy`
+- [ ] `ft_strlcat`
+- [ ] `ft_toupper`
+- [ ] `ft_tolower`
+- [ ] `ft_strchr`
+- [ ] `ft_strrchr`
+- [ ] `ft_strncmp`
+- [ ] `ft_memchr`
+- [ ] `ft_memcmp`
+- [ ] `ft_strnstr`
+- [ ] `ft_atoi`
+- [ ] `ft_calloc`
+- [ ] `ft_strdup`
 - [ ] `ft_substr`
 - [ ] `ft_strjoin`
 - [ ] `ft_strtrim`
