@@ -3,12 +3,12 @@
 ### Mandatory:
 
 - [x] `isalpha`
-- [ ] `isdigit`
-- [ ] `isalnum`
-- [ ] `isascii`
-- [ ] `isprint`
-- [ ] `strlen`
-- [ ] `memset`
+- [x] `isdigit`
+- [x] `isalnum`
+- [x] `isascii`
+- [x] `isprint`
+- [x] `strlen`
+- [x] `memset`
 - [ ] `bzero`
 - [ ] `memcpy`
 - [ ] `memmove`
