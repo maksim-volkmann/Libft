@@ -1,2 +1,36 @@
 # Libft
-s
+
+- [x] <span style="color: #046307">`isalpha`</span>
+- <span style="color: #D2042D">[ ] `isdigit`</span>
+- <span style="color: #D2042D">[ ] `isalnum`</span>
+- <span style="color: #D2042D">[ ] `isascii`</span>
+- <span style="color: #D2042D">[ ] `isprint`</span>
+- <span style="color: #D2042D">[ ] `strlen`</span>
+- <span style="color: #D2042D">[ ] `memset`</span>
+- <span style="color: #D2042D">[ ] `bzero`</span>
+- <span style="color: #D2042D">[ ] `memcpy`</span>
+- <span style="color: #D2042D">[ ] `memmove`</span>
+- <span style="color: #D2042D">[ ] `strlcpy`</span>
+- <span style="color: #D2042D">[ ] `strlcat`</span>
+- <span style="color: #D2042D">[ ] `toupper`</span>
+- <span style="color: #D2042D">[ ] `tolower`</span>
+- <span style="color: #D2042D">[ ] `strchr`</span>
+- <span style="color: #D2042D">[ ] `strrchr`</span>
+- <span style="color: #D2042D">[ ] `strncmp`</span>
+- <span style="color: #D2042D">[ ] `memchr`</span>
+- <span style="color: #D2042D">[ ] `memcmp`</span>
+- <span style="color: #D2042D">[ ] `strnstr`</span>
+- <span style="color: #D2042D">[ ] `atoi`</span>
+- <span style="color: #D2042D">[ ] `calloc`</span>
+- <span style="color: #D2042D">[ ] `strdup`</span>
+- <span style="color: #D2042D">[ ] `ft_substr`</span>
+- <span style="color: #D2042D">[ ] `ft_strjoin`</span>
+- <span style="color: #D2042D">[ ] `ft_strtrim`</span>
+- <span style="color: #D2042D">[ ] `ft_split`</span>
+- <span style="color: #D2042D">[ ] `ft_itoa`</span>
+- <span style="color: #D2042D">[ ] `ft_strmapi`</span>
+- <span style="color: #D2042D">[ ] `ft_striteri`</span>
+- <span style="color: #D2042D">[ ] `ft_putchar_fd`</span>
+- <span style="color: #D2042D">[ ] `ft_putstr_fd`</span>
+- <span style="color: #D2042D">[ ] `ft_putendl_fd`</span>
+- <span style="color: #D2042D">[ ] `ft_putnbr_fd`</span>
