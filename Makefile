@@ -1,4 +1,4 @@
-#******************************************************************************#
+# **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
@@ -6,11 +6,11 @@
 #    By: mvolkman <mvolkman@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/19 21:34:32 by mvolkman          #+#    #+#              #
-#    Updated: 2023/10/30 12:31:14 by mvolkman         ###   ########.fr        #
+#    Updated: 2023/11/04 16:32:53 by mvolkman         ###   ########.fr        #
 #                                                                              #
-#******************************************************************************#
+# **************************************************************************** #
 
-CC = cc
+CC = CC
 
 CFLAGS = -Wall -Wextra -Werror
 
@@ -52,6 +52,13 @@ SRC = \
 
 OBJ = $(SRC:.c=.o)
 
+BONUS_SRC = \
+	ft_lstnew_bonus.c \
+	ft_lstadd_front_bonus.c \
+	ft_lstsize_bonus.c \
+
+BONUS_OBJ = $(BONUS_SRC:.c=.o)
+
 NAME = libft.a
 
 all: $(NAME)
@@ -59,8 +66,11 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
 
+bonus: $(BONUS_OBJ)
+	ar rcs $(NAME) $(BONUS_OBJ)
+
 clean:
-	rm -f $(OBJ)
+	rm -f $(OBJ) $(BONUS_OBJ)
 
 fclean: clean
 	rm -f $(NAME)

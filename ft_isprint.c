@@ -6,7 +6,7 @@
 /*   By: mvolkman <mvolkman@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 09:55:46 by mvolkman          #+#    #+#             */
-/*   Updated: 2023/10/26 01:47:50 by mvolkman         ###   ########.fr       */
+/*   Updated: 2023/11/04 12:56:40 by mvolkman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,5 @@
 
 int	ft_isprint(int c)
 {
-	if (c >= 32 && c <= 126)
-		return (1);
-	return (0);
+	return ((c >= 32 && c <= 126));
 }

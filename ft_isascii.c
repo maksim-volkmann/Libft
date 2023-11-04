@@ -6,7 +6,7 @@
 /*   By: mvolkman <mvolkman@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 14:24:49 by mvolkman          #+#    #+#             */
-/*   Updated: 2023/10/26 01:47:32 by mvolkman         ###   ########.fr       */
+/*   Updated: 2023/11/04 12:54:16 by mvolkman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,5 @@
 
 int	ft_isascii(int c)
 {
-	if (c >= 0 && c <= 127)
-		return (1);
-	return (0);
+	return ((c >= 0 && c <= 127));
 }
