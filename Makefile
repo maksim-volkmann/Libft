@@ -6,7 +6,7 @@
 #    By: mvolkman <mvolkman@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/19 21:34:32 by mvolkman          #+#    #+#              #
-#    Updated: 2023/11/04 21:20:40 by mvolkman         ###   ########.fr        #
+#    Updated: 2023/11/05 07:49:54 by mvolkman         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -56,7 +56,8 @@ BONUS_SRC = \
 	ft_lstnew_bonus.c \
 	ft_lstadd_front_bonus.c \
 	ft_lstsize_bonus.c \
-	ft_lstlast_bonus.c
+	ft_lstlast_bonus.c \
+	ft_lstadd_back.c
 
 BONUS_OBJ = $(BONUS_SRC:.c=.o)
 
