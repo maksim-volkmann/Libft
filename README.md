@@ -1,5 +1,9 @@
 # Libft
 
+
+<span style="text-align: center">![Badge](https://raw.githubusercontent.com/maksim-volkmann/42-project-badges/main/badges/libftm.png)</span>
+
+
 **MANDATORY**
 
 - [x] <span style="text-decoration:line-through;color:#D21F3C;">isalpha</span> (Completed)
@@ -39,12 +43,13 @@
 
 **BONUS**
 
-- [ ] ft_lstnew
-- [ ] ft_lstadd_front
-- [ ] ft_lstsize
-- [ ] ft_lstlast
-- [ ] ft_lstadd_back
-- [ ] ft_lstdelone
-- [ ] ft_lstclear
-- [ ] ft_lstiter
-- [ ] ft_lstmap
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstnew</span> (Completed)
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstadd_front</span> (Completed)
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstsize</span> (Completed)
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstlast</span> (Completed)
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstadd_back</span> (Completed)
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstdelone</span> (Completed)
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstclear</span> (Completed)
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstdelone</span> (Completed)
+- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstmap</span> (Completed)
+
