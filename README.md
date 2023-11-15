@@ -1,55 +1,38 @@
 # Libft
 
+<p align="center">
+  <img src="/score.png" alt="score"/>
+</p>
 
-<span style="text-align: center">![Badge](https://raw.githubusercontent.com/maksim-volkmann/42-project-badges/main/badges/libftm.png)</span>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maksim-volkmann/42-project-badges/main/badges/libftm.png" alt="Libft badge"/>
+</p>
 
 
-**MANDATORY**
-
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">isalpha</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">isdigit</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">isalnum</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">isascii</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">isprint</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">strlen</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">memset</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">bzero</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">memcpy</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">memmove</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">strlcpy</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">strlcat</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">toupper</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">tolower</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">strchr</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">strrchr</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">strncmp</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">memchr</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">memcmp</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">strnstr</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">atoi</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">calloc</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">strdup</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_substr</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_strjoin</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_strtrim</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_split</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_itoa</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_strmapi</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_striteri</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_putchar_fd</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_putstr_fd</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_putendl_fd</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_putnbr_fd</span> (Completed)
-
-**BONUS**
-
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstnew</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstadd_front</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstsize</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstlast</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstadd_back</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstdelone</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstclear</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstdelone</span> (Completed)
-- [x] <span style="text-decoration:line-through;color:#D21F3C;">ft_lstmap</span> (Completed)
-
+| **MANDATORY PART 1**                            | **MANDATORY PART 2**                           | **BONUS**                                      |
+| ----------------------------------------------- | ---------------------------------------------- | ----------------------------------------------- |
+| [ft_isalpha](ft_isalpha.c)                      | [ft_memmove](ft_memmove.c)                     | [ft_lstnew](ft_lstnew.c)                       |
+| [ft_isdigit](ft_isdigit.c)                      | [ft_strlcpy](ft_strlcpy.c)                     | [ft_lstadd_front](ft_lstadd_front.c)          |
+| [ft_isalnum](ft_isalnum.c)                      | [ft_strlcat](ft_strlcat.c)                     | [ft_lstsize](ft_lstsize.c)                     |
+| [ft_isascii](ft_isascii.c)                      | [ft_toupper](ft_toupper.c)                     | [ft_lstlast](ft_lstlast.c)                     |
+| [ft_isprint](ft_isprint.c)                      | [ft_tolower](ft_tolower.c)                     | [ft_lstadd_back](ft_lstadd_back.c)            |
+| [ft_strlen](ft_strlen.c)                        | [ft_strchr](ft_strchr.c)                       | [ft_lstdelone](ft_lstdelone.c)                |
+| [ft_memset](ft_memset.c)                        | [ft_strrchr](ft_strrchr.c)                     | [ft_lstclear](ft_lstclear.c)                  |
+| [ft_bzero](ft_bzero.c)                          | [ft_strncmp](ft_strncmp.c)                     | [ft_lstdelone](ft_lstdelone.c)                |
+| [ft_memcpy](ft_memcpy.c)                        | [ft_memchr](ft_memchr.c)                       | [ft_lstmap](ft_lstmap.c)                       |
+| [ft_strlcpy](ft_strlcpy.c)                       | [ft_memcmp](ft_memcmp.c)                       | [ft_lstnew](ft_lstnew.c)                       |
+| [ft_strlcat](ft_strlcat.c)                       | [ft_strnstr](ft_strnstr.c)                     | [ft_lstadd_front](ft_lstadd_front.c)          |
+| [ft_toupper](ft_toupper.c)                      | [ft_atoi](ft_atoi.c)                           | [ft_lstsize](ft_lstsize.c)                     |
+| [ft_tolower](ft_tolower.c)                      | [ft_calloc](ft_calloc.c)                       | [ft_lstlast](ft_lstlast.c)                     |
+| [ft_strchr](ft_strchr.c)                        | [ft_strdup](ft_strdup.c)                       | [ft_lstadd_back](ft_lstadd_back.c)            |
+| [ft_strrchr](ft_strrchr.c)                      | [ft_substr](ft_substr.c)                       | [ft_lstdelone](ft_lstdelone.c)                |
+| [ft_strncmp](ft_strncmp.c)                      | [ft_strjoin](ft_strjoin.c)                     | [ft_lstclear](ft_lstclear.c)                  |
+| [ft_memchr](ft_memchr.c)                        | [ft_strtrim](ft_strtrim.c)                     | [ft_lstdelone](ft_lstdelone.c)                |
+| [ft_memcmp](ft_memcmp.c)                        | [ft_split](ft_split.c)                         | [ft_lstmap](ft_lstmap.c)                       |
+| [ft_strnstr](ft_strnstr.c)                      | [ft_itoa](ft_itoa.c)                           |                                                 |
+| [ft_atoi](ft_atoi.c)                            | [ft_strmapi](ft_strmapi.c)                     |                                                 |
+|                                               | [ft_striteri](ft_striteri.c)                   |                                                 |
+|                                               | [ft_putchar_fd](ft_putchar_fd.c)               |                                                 |
+|                                               | [ft_putstr_fd](ft_putstr_fd.c)                 |                                                 |
+|                                               | [ft_putendl_fd](ft_putendl_fd.c)               |                                                 |
+|                                               | [ft_putnbr_fd](ft_putnbr_fd.c)                 |                                                 |
