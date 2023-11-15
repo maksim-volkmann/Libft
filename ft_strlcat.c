@@ -6,7 +6,7 @@
 /*   By: mvolkman <mvolkman@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/21 16:00:24 by mvolkman          #+#    #+#             */
-/*   Updated: 2023/10/31 13:57:39 by mvolkman         ###   ########.fr       */
+/*   Updated: 2023/11/06 14:24:16 by mvolkman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ size_t	ft_strlcat(char *dest, const char *src, size_t n)
 	size_t	d;
 	size_t	s;
 	size_t	i;
-	size_t	space;
+	size_t	available_space;
 
 	d = 0;
 	while (dest[d] != '\0' && d < n)
@@ -27,9 +27,9 @@ size_t	ft_strlcat(char *dest, const char *src, size_t n)
 		s++;
 	if (d < n)
 	{
-		space = n - d - 1;
+		available_space = n - d - 1;
 		i = 0;
-		while (i < space && src[i] != '\0')
+		while (i < available_space && src[i] != '\0')
 		{
 			dest[d + i] = src[i];
 			i++;
