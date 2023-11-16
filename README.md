@@ -1,8 +1,7 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/maksim-volkmann/42-project-badges/main/badges/libftm.png" width="100" alt="Libft badge" />
-  <h1>LIBFT</h1>
-</div>
-
+<img align="left" src="https://raw.githubusercontent.com/maksim-volkmann/42-project-badges/main/badges/libftm.png" width="100" alt="Libft badge" />
+LIBFT
+<br>
+<br>
 <br>
 
 <table>
@@ -142,6 +141,9 @@
   </tbody>
 </table>
 
+<img align="right" src="https://picsum.photos/300/200" alt="image" />
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 <p align="center">
   <img src="/img/score.png" alt="score"/>
